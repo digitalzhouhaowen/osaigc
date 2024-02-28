@@ -1,23 +1,18 @@
-# AI项目
+# OSAIGC
 
 #### 介绍
+AIGC系统，系统pc+小程序+app，chatai商业源码/文心一言/星火/知识库/aippt/ai问答/ai绘画/mj+sd
 
+#### 访问地址
+<div>PC https://www.osaigc.com/pc</div>
+<div>移动端 https://www.osaigc.com/h5</div>
 
-#### 软件架构
+#### 部分截图
+<img src="./static/images/1.png">
+<img src="./static/images/2.png">
+<img src="./static/images/3.png">
+<img src="./static/images/4.png">
+<img src="./static/images/5.png">
 
-1.	uniapp
-2.	vue2
-3.	vuex
-4.	uview-ui 2.0
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  npm install  or  yarn
-2.  Hbuilder X 运行
+#### 联系方式
+<img src="./static/images/e59892b85c91e620ee376059b9bc343.jpg">
