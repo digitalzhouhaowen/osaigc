@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        
+		<title>
+            <%= htmlWebpackPlugin.options.title %>
+        </title>
+		<meta name="description" content="OSAIGC，在线AI办公助手,绘图/写作创作平台,Ai写作生成器 ,AI写作神器,提供全自动AI写作服务。它可以帮助您轻松生成高质量的文章、作文、报告、方案、心得体会、文案、总结和诗歌等内容。实现AI在线自动写作，让您省去繁琐的撰写过程。无论是需要快速撰写文稿还是寻找灵感创作，都能为您提供便捷而高效的解决方案。">
+        <meta name="keywords" content="AI绘画,mj绘图,midjourny,midjourny中文版,免费ai绘图,ai原创文章,原创工具,在线原创,ai智能写作,智能写作,写作生成器,写作神器,ai办公助手">
+		<script>
+            document.addEventListener('DOMContentLoaded', function() {
+                document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
+            })
+			// <!-- 百度统计---------------------------------------- -->
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?516ed00cd725d6445d608b87c547c5fb";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();
+			// <!-- ---------------------------------------- -->
+        </script>
+        <link rel="stylesheet" href="<%= BASE_URL %>static/index.css" />
+    </head>
+    <body>
+        <noscript>
+            <strong>Please enable JavaScript to continue.</strong>
+        </noscript>
+        <div id="app"></div>
+    </body>
+</html>

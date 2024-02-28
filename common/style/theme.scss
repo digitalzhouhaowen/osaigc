@@ -1,0 +1,39 @@
+// 通用
+$white: #fff;
+$black: #000;
+$error: #DB1F26;
+$success: #33BA6A;
+
+// 默认主题
+$blue: #2a82e4;
+$purple: #d269ff;
+$default-mask: #EAEDFF;
+$brown: #CC7E18;
+
+$default-theme: #fff;
+$default-theme-bg: url('https://www.osaigc.com/uploads/20230511/c4682aff5cd1df03660aee423c454bfb.png');
+$default-gradient-bg: linear-gradient(141.96deg, $blue 0%, $purple 100%);
+$default-text: #272d2f;
+
+$default-share-bg-1: url('https://www.osaigc.com/uploads/20230525/5499e6003b7adbf4668042990ee1b73a.png');
+$default-share-bg-2: url('https://www.osaigc.com/uploads/20230525/5499e6003b7adbf4668042990ee1b73a.png');
+$default-share-bg-3: url('https://www.osaigc.com/uploads/20230525/5499e6003b7adbf4668042990ee1b73a.png');
+
+$default-vip-bg: url('~@/static/images/vip_bg_default.png') center / 80% auto no-repeat, #DF9B45;
+
+// 暗黑主题
+$cyan: #43CF7C;
+$green: #007A31;
+$black-2b: #2b2b2b;
+$black-16: #161616;
+$dark-mask: #181826;
+$golden: #F2D7A1;
+
+$dark-theme: #0B0A1A;
+$dark-theme-bg: rgba(#29da5a, 0.25);
+$dark-gradient-bg: linear-gradient(141.96deg, $cyan 0%, $green 100%);
+$dark-gray-bg: linear-gradient(143.89deg, $black-2b 0%, $black-16 100%);
+
+$dark-share-bg-1: url('https://www.osaigc.com/uploads/20230915/2645389928774ea1079c435ed463434f.png');
+
+$dark-vip-bg: url('~@/static/images/vip_bg_dark.png') center / 80% auto no-repeat, $dark-gray-bg;
